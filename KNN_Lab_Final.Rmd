@@ -72,6 +72,9 @@ commercial_correlations
 
 ```{r}
 #5. Determine which variables to remove, high correlations start around .7 or below -.7 I would especially remove variables that appear to be correlated with more than one variable. List your rationale here:
+
+# We followed the rationale above, and removed the correlations that are above an absolute value of 0.7. Using this process also eliminated groups like motion_distr_mn which was highly correlated with multiple variables like frame_diff_dist_mn and motion_dist_mn. 
+
 library(caret)
 
 tv_data.clean_corr = findCorrelation(commercial_correlations, cutoff=0.7) # putt any value as a "cutoff" 
@@ -148,7 +151,7 @@ prb <- data.frame(prob=attr(tv_3NN, "prob"))
 # predictions from bank_3NN to the original data set.
 kNN_res = table(tv_3NN,
                 tv_data_test$label)
-kNN_res
+kNN_res # Initial Confusion Matrix
 
 # Select the true positives and true negatives by selecting
 # only the cells where the row and column names are the same.
@@ -169,6 +172,8 @@ kNN_acc
 ```{r}
 #9  Run the confusion matrix function and comment on the model output
 confusionMatrix(as.factor(tv_3NN), as.factor(tv_data_test$label), positive = "1", dnn=c("Prediction", "Actual"), mode = "sens_spec")
+
+# The accuracy is 76.76%, the Sensitivity is 86.73%, and the Specificity is 59%. Based on Mr. Rooney's goal, we should probably choose a specificity that is low. 
 ```
 
 ```{r}
@@ -225,6 +230,7 @@ ggplot(knn_different_k,
   geom_line(color = "orange", size = 1.5) +
   geom_point(size = 3)
 
+# We should select K=7 or K=17 as they have the highest accuracies
 ```
 
 ```{r}

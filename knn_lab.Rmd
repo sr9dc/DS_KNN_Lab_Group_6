@@ -1,7 +1,7 @@
 ---
 title: "KNN Lab"
-author: "Brian Wright"
-date: "4/7/2020"
+author: "Sai Rajuladevi"
+date: "4/3/2021"
 output: html_document
 editor_options: 
   chunk_output_type: console

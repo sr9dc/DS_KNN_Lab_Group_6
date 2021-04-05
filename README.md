@@ -17,7 +17,7 @@
 ## Topic
 For our Lab we did a KNN analysis of TV commercial data to classify when something is a commercial and when it is not. 
 
-We started by determining the split between commercial and non-commercial then we calculated the base rate, assuming that 1 is the commercial label and -1 is the non-commercial label. 
+We started by determining the split between commercial and non-commercial data, and then we calculated the base rate, assuming that 1 is the commercial label and -1 is the non-commercial label. 
 
 Following that initial step, we cleaned the data, removing columns that weren't relevant and that had greater than an absolute value of 0.7 in terms of variance to other features. 
 

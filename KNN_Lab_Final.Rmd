@@ -33,7 +33,7 @@ library(caret)
 ## Step 1
 * Load in the data, both the commercial dataset and the labels. 
 * We then placed the labels on the columns. 
-* The dataset "tv_commercialsets-CNN_Cleaned.csv",  is data collected about the features of commercials on CNN. We can try to predict what segments of video are commercials based on their audio and video components. More information on the datasets can be found [Data World](https://data.world/kramea/tv-commercial-detection/workspace/file?filename=tv_commercial_datasets%2FBBC_Cleaned.csv)
+* The dataset "tv_commercialsets-CNN_Cleaned.csv",  is data collected about the features of commercials on CNN. We can try to predict what segments of video are commercials based on their audio and video components. More information on the datasets can be found at [Data World](https://data.world/kramea/tv-commercial-detection/workspace/file?filename=tv_commercial_datasets%2FBBC_Cleaned.csv)
 
 ```{r, echo=TRUE, warning=FALSE, message=FALSE}
 

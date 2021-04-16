@@ -64,6 +64,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Sai Rajuladevi: https://www.linkedin.com/in/sai-rajuladevi/
 
+Izzy Shehan: https://github.com/izzy-shehan
+
+Andrew Porter: https://github.com/andrewporter1212
+
 Project Link: [https://github.com/sr9dc/DS_KNN_Lab_Group_6](https://github.com/sr9dc/DS_KNN_Lab_Group_6)
 
 

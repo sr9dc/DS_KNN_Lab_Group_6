@@ -68,7 +68,7 @@ Izzy Shehan: https://github.com/izzy-shehan
 
 Andrew Porter: https://github.com/andrewporter1212
 
-Project Link: [raw.githack.com URL](https://rawcdn.githack.com/sr9dc/DS_KNN_Lab_Group_6/f1727b475b9b4eb11db3b933b1187ebc814802d0/KNN_Lab_Final.html)
+[Project Link](https://rawcdn.githack.com/sr9dc/DS_KNN_Lab_Group_6/f1727b475b9b4eb11db3b933b1187ebc814802d0/KNN_Lab_Final.html)
 
 
 
